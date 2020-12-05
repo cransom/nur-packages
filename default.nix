@@ -16,11 +16,7 @@ in {
   overlays = import ./overlays; # nixpkgs overlays
 
   plater = pkgs.callPackage ./pkgs/plater { };
-  rfm = pkgs.callPackage ./pkgs/rfm { };
   #libmesh = pkgs.callPackages ./pkgs/mesh { };
-  fah7 = pkgs.callPackage ./pkgs/fah7 { };
-  #bcnc = pkgs.callPackage ./pkgs/bcnc {};
-  aggregate = pkgs.callPackages ./pkgs/aggregate {};
 
 }
 
